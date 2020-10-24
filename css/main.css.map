@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "colors.scss",
+        "mobil.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
