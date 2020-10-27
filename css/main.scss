@@ -1,5 +1,222 @@
 @import 'colors';
 
+body{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: $VeryDarkCyan;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
 
+}
 
+.btn{
+    text-decoration: none;
+    color: $black;
+    font-size: 0.9rem;
+    background-color: $white;
+    font-weight: 700;
+    line-height: 0;
+    padding: 4rem;
+    padding-top: 1.45rem;
+    padding-bottom: 1.55rem;
+    border-radius: 5rem; 
+    -webkit-box-shadow: 0px 10px 30px -8px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 10px 30px -8px rgba(0,0,0,0.25);
+    box-shadow: 0px 10px 30px -8px rgba(0,0,0,0.25);
+
+    &--pink{
+        background-color: $Pink;
+        color: $white;
+    }
+}
+.header{
+    background: url('./../asset/images/bg-hero-desktop.svg'),$VeryPaleCyan;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 3.55rem;
+    padding-left: 5rem;
+    padding-right: 5.25rem;
+    padding-bottom: 4.2rem;
+    &__top{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+    }
+    &__logo{
+        width: 12rem;
+        height: auto;
+    }
+    &__btn{
+        margin-top: -0.55rem;
+    }
+    .article1{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        &__title{
+            font-family: 'Poppins';
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 3.75rem;
+            max-width: 500px;
+            width: 100%;
+            margin-top: 10.04rem;
+        }
+        &__text{
+            max-width: 520px;
+            width: 100%;
+            line-height: 1.7rem;
+            margin-top: 1.75rem;
+            margin-bottom: 3rem;
+        }
+        &__btn{
+            padding-top: 1.05rem;
+            padding-bottom: 1.25rem;
+        }
+        &__aside{
+            max-width: 692px;
+            width: 100%;
+            text-align: right;
+            padding-top: 4.03rem;
+        }
+        &__image{
+            width: 100%;
+        }
+    }
+    
+}
+main{
+    padding-left: 5rem;
+    padding-right: 5.25rem;
+}
+.card{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 30px -8px rgba(0,37,46,0.20);
+    -moz-box-shadow: 0px 0px 30px -8px rgba(0,37,46,0.20);
+    box-shadow: 0px 0px 30px -8px rgba(0,37,46,0.2);
+    border-radius: 0.7rem;
+    padding-top: 3.4rem;
+    padding-bottom: 3.35rem;
+    padding-left: 7.5rem;
+    padding-right: 1.85rem;
+    margin-top: 2.55rem;
+    &--middle{
+        flex-flow: row-reverse;
+
+    }
+    &--bottom{
+        top: -11.45rem ;
+        position: relative;
+        background-color: $white;
+        flex-flow: column;
+        max-width: 815px;
+        width: 100%;
+        margin: auto;
+        margin-top: 10rem;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 3.25rem;
+        padding-top: 3.35rem;
+        border-radius: 1.5rem;
+        z-index: 2;
+    }
+    &__title{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 1.78rem;
+
+        &--bottom{
+            font-size: 2.03rem;
+            margin-top: 1.15rem;
+            letter-spacing: -0.5px;
+        }
+    }
+    &__text{
+        color: $GrayishBlue;
+        line-height: 1.7rem;
+        margin-top: 1.25rem;
+        max-width: 490px;
+        width: 100%;
+
+        &--middle{
+            max-width: 500px;
+        }
+    }
+    &__image{
+        max-width: 407px;
+        width: 100%;
+    }
+    &__btn{
+        margin-top: 2.7rem;
+        font-size: 1.1em;
+        padding: 6.35rem;
+        padding-top: 2.55rem;
+        padding-bottom: 2.45rem;
+        
+    }
+    
+}
+.top-footer{
+    background-color: $VeryDarkCyan;
+    top: -5rem;
+}
+.footer{
+    z-index: 0;
+    position: relative;
+    padding-left: 9.5rem;
+    padding-right: 10.8rem; 
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+    &__logo{
+        filter: brightness(0) invert(1);
+    }
+    &__col1{
+        max-width: 410px;
+        width: 100%;
+        margin-left: 1.3rem;
+    }
+    &__col2{
+        margin-left: 5.1rem;
+        width: 16%;
+    }
+    &__col3{
+        margin-left: 1.8rem;
+        width: 15%;
+    }
+    &__col4{
+        margin-left: 3.3rem;
+        width: 18%;
+    }
+    &__social-media{
+
+        .social-media{
+            &__image{
+
+            }
+        }
+    }
+    &__icon{
+
+    }
+    &__link{
+
+    }
+}
+.attribution{
+
+}
 @import 'mobil';
