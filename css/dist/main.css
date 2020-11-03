@@ -110,6 +110,9 @@ main {
   padding-bottom: 3.35rem;
   padding-left: 7.5rem;
   padding-right: 1.85rem;
+  width: 100%;
+  max-width: 1081px;
+  margin: auto;
   margin-top: 2.55rem;
 }
 .card--middle {
@@ -120,7 +123,7 @@ main {
   position: relative;
   background-color: #FFFFFF;
   flex-flow: column;
-  max-width: 815px;
+  max-width: 800px;
   width: 100%;
   margin: auto;
   margin-top: 10rem;
@@ -176,14 +179,20 @@ main {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  color: #FFFFFF;
 }
 .footer__logo {
   filter: brightness(0) invert(1);
+  margin-left: 9.5rem;
 }
 .footer__col1 {
   max-width: 410px;
   width: 100%;
   margin-left: 1.3rem;
+}
+.footer__col1 > div {
+  display: flex;
+  align-items: flex-start;
 }
 .footer__col2 {
   margin-left: 5.1rem;
